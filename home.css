@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    height: 500vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.home-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("wallpaper/home-wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home-content-container{
+    flex: 1;
+    display: grid;
+    place-items: center;
+    margin-left: 125px;
+}
+
+.name{
+    margin: 12px 0;
+}
+
+.name p{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.web p{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.buttons{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 9px 22px;
+    border-radius: 32px;
+    border: none;
+    margin: 17px 0 20px 0;
+
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+	box-shadow: 0 0px 10px 0 rgba(0,0,0.35);
+	border: 1px solid rgba(255, 255, 255, 0.111);
+
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.social-media-container img{
+    width: 34px;
+    margin: 5px 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.social-media-container img:hover{
+    transform: scale(1.08);
+}
+
+.social-media-container a{
+    text-decoration: none;
+}
+
+.home-photo-container{
+    flex: 1;
+    display: grid;
+    place-items: center;
+    margin-right: 125px;
+}
+
+.home-photo{
+    width: 400px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-height: 650px) {
+    .home-container {
+      height: 150vh;
+    }
+}

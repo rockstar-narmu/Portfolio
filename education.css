@@ -1,0 +1,99 @@
+.education-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("wallpaper/education-wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.education-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.gradcap{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.edu{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.violet{
+    color: rgb(120, 33, 120);
+}
+
+.quote{
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.college-container,
+.school-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 30px;
+	box-shadow: 10px 10px rgba(0,0,0,0.5);
+}
+
+.college-container:hover,
+.school-container:hover{
+    translate: -2px -2px;
+}
+
+.nec, .svg{
+    width: 270px;
+    height: 165px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.college-info,
+.school-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.degree{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(28, 28, 97)
+}
+
+.institute{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.year{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(23, 72, 23);
+}
+
+@media (max-width: 600px) {
+    .education-container {
+      height: 125vh;
+    }
+}
+
+@media (max-height: 650px) {
+    .education-container {
+      height: 150vh;
+    }
+}
